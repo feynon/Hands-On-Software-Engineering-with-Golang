@@ -67,7 +67,7 @@ func (i *edgeIterator) Close() error {
 	return nil
 }
 
-// Link implements graph.LinkIterator.
+// Edge Link implements graph.LinkIterator.
 func (i *edgeIterator) Edge() *graph.Edge {
 	// The edge pointer contents may be overwritten by a graph update; to
 	// avoid data-races we acquire the read lock first and clone the edge

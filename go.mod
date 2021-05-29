@@ -21,8 +21,8 @@ require (
 	github.com/facebookgo/subset v0.0.0-20200203212716-c811ad88dec4 // indirect
 	github.com/glycerine/go-unsnap-stream v0.0.0-20190901134440-81cf024a9e0a // indirect
 	github.com/golang/mock v1.4.0
-	github.com/golang/protobuf v1.3.2
-	github.com/google/uuid v1.1.1
+	github.com/golang/protobuf v1.5.2
+	github.com/google/uuid v1.1.2
 	github.com/gorilla/mux v1.7.3
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/hashicorp/go-multierror v1.0.0
@@ -58,7 +58,6 @@ require (
 	golang.org/x/tools v0.0.0-20200123022218-593de606220b // indirect
 	golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543
 	google.golang.org/appengine v1.6.5 // indirect
-	google.golang.org/genproto v0.0.0-20200122232147-0452cf42e150 // indirect
-	google.golang.org/grpc v1.26.0
+	google.golang.org/grpc v1.38.0
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15
 )
